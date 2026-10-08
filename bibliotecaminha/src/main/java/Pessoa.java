@@ -1,6 +1,9 @@
 public class Pessoa {
-
     private String nome;
-    private bilhete bilhete;
+    private Bilhete bilhete;
+
+    public Pessoa(String nome) {
+        this.nome = nome;
+    }
 
 }
